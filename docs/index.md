@@ -12,6 +12,7 @@
  		<h2>下载链接</h2>
   		<div class="download-container">
   			<div class ="inner-download-left">
+  				<center>
   				<h3>信使</h3>
   				<div class="button-container">
    	  				<a href="https://github.com/loki-project/loki-messenger/releases" class="button button-outline">桌面系统</a>
@@ -22,6 +23,22 @@
     			<div class="button-container">
    	  				<a href="https://github.com/loki-project/loki-messenger-ios/releases" class="button button-outline">苹果系统</a>
     			</div>
+    		</center>
+			</div>
+			<div class="inner-download-right">
+				<center>
+    			<h3>洛基网络</h3>
+    			<div class="button-container">
+   	  				<a href="https://github.com/loki-project/loki-network/releases" class="button button-outline">桌面系统</a>
+    			</div>
+  			</div>
+  			</center>
+		</div>
+  		<div class="download-container">
+  						<div class="inner-download-left-blank">
+  			</div>
+  			<div class ="inner-download-center">
+  				<center>
     			<h3>钱包</h3>
     			<div class="button-container">
       				<a href="https://github.com/loki-project/loki-electron-gui-wallet/releases" class="button button-outline">图形界面</a>
@@ -35,12 +52,9 @@
     			<div class="button-container">
    	  				<a href="https://github.com/loki-project/loki-ios-wallet/releases" class="button button-outline">苹果系统</a>
     			</div>
+    		</center>
 			</div>
-			<div class="inner-download-right">
-    			<h3>洛基网络</h3>
-    			<div class="button-container">
-   	  				<a href="https://github.com/loki-project/loki-network/releases" class="button button-outline">桌面系统</a>
-    			</div>
+			<div class="inner-download-right-blank">
   			</div>
 		</div>
 	</div>
@@ -120,8 +134,9 @@ Loki是一个允许用户在互联网上进行私密交易和通信的匿名隐�
 		<img max-width="30px" src="assets/AssetsChina/desktop.png">
 	</div>
 	<div class="col2">
-		<img src="assets/AssetsChina/messenger.gif">
+		<img id="gif" src="assets/AssetsChina/messenger.gif">
 	</div>
+
 </div>
 <br>
 <br>
