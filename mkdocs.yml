@@ -1,0 +1,59 @@
+# Project information
+site_name: 'Loki Docs'
+site_url: 'https://docs.loki.network'
+
+# Repository
+repo_name: 'lokidocs'
+repo_url: 'https://github.com/loki-project/loki-docs'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+     accent: 'green'
+  direction: 'ltr'
+  feature:
+    tabs: true     
+  font: false
+  favicon: 'Loki_favicon32x32.png'
+  logo: 'logo.svg'
+
+nav:
+- 'Loki.network': 'index.md'
+
+# Customization
+extra_css:
+  - CSS/style.css
+  - CSS/font.css
+
+extra_javascript:
+  - JAVASCRIPT/links.js
+  - JAVASCRIPT/style.js
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/loki-project'
+    - type: 'twitter'
+      link: 'https://twitter.com/loki_project'
+    - type: 'telegram'
+      link: 'https://t.me/LokiCommunity'
+    - type: 'reddit'
+      link: 'https://www.reddit.com/r/LokiProject'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/lokinetwork'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/LokiNetwork/'
+
+# Google Analytics
+# Nope, get out of here google.
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
