@@ -23,11 +23,11 @@
 {
     html .md-nav--primary .md-nav__title--site 
     {
-    	background-color: #000000;
+        background-color: #000000;
     }
     .md-nav__source
     {
-    	background-color: #008522;
+        background-color: #008522;
     }
 }
 
@@ -188,29 +188,14 @@
     display:none;
 }
 
-.row 
-{
-    display: flex; /* equal height of the children */
-}
 
-.col1 {
-    flex: 1; /* additionally, equal width */
-    width:50%;
-}
-
-.col2 {
-    flex: 1; /* additionally, equal width */
-    padding: 1em;
-    vertical-align:middle;
-    text-align:center;
-    margin:20px;
-}
 .button 
 {
     color: #78be20; 
     padding: 5px 10px!important; 
-    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border: 1px solid #78be20; 
     border-radius: 5px; 
+
 }
 
 .button:hover 
@@ -226,6 +211,7 @@
     display: inline-block; 
     vertical-align: top; 
     text-align: center; 
+    margin:10px;
 }
 
 .video-block
@@ -238,75 +224,129 @@
     padding: 1em;
     font-color:#f5f5f5;
 }
-
-.inner-download-left {
-    flex: 1; /* additionally, equal width */
-    padding: 1em;
-    width:50%;
-}
-
-.inner-download-right 
+.video-block video
 {
-    flex: 1; /* additionally, equal width */
-    padding: 1em;
-}
-
-.download-container 
-{
-    display: flex; /* equal height of the children */
-}
-
-.services-container
-{
-    display: flex; /* equal height of the children */
-
-}
-
-.messenger-container
-{
-    width:25%;
-    padding:20px;
-}
-
-.sn-container
-{
-    width:25%;
-    padding:20px;
-}
-
-.lokinet-container
-{
-    width:25%;
-    padding:20px;
-}
-
-.snapps-container
-{
-    width:25%;    
-    padding:20px;
-}
-
-.messenger-img
-{
-    height:230px;
-}
-
-.sn-img
-{
-    height:230px;
-}
-
-.lokinet-img
-{
-    height:230px;
-}
-
-.snapps-img
-{
-    height:230px;  
+    width:300px;
 }
 
 img 
 {
     border-radius:10px;
+}
+
+@media only screen and (min-width: 76.1875em)
+{
+    .row 
+    {
+        display: flex; /* equal height of the children */
+    }
+
+    .col1 {
+        flex: 1; /* additionally, equal width */
+        width:50%;
+    }
+
+    .col2 {
+       flex: 1; /* additionally, equal width */
+      padding: 1em;
+      vertical-align:middle;
+      text-align:center;
+      margin:20px;
+    }
+
+    .video-block video
+    {
+        width:1000px;
+    }
+
+    .inner-download-left 
+    {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        width:50%;
+        background-color:#0d0d0d;
+        border-radius:10px;
+        margin:10px;
+    }
+
+    .inner-download-right 
+    {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        background-color:#0d0d0d;
+        border-radius:10px;
+        margin:10px;
+    }
+
+    .inner-download-right-blank
+    {
+            width:25%;
+    }
+
+    .inner-download-left-blank
+    {
+            width:25%;
+    }
+
+    .inner-download-center
+    {
+        background-color:#0d0d0d;
+        border-radius:10px;
+        margin:10px;
+        padding:1em;
+    }
+
+    .download-container 
+    {
+        display: flex; /* equal height of the children */
+    }
+
+    .services-container
+    {
+        display: flex; /* equal height of the children */
+    }
+
+    .messenger-container
+    {
+        width:25%;
+        padding:20px;
+    }
+
+    .sn-container
+    {
+        width:25%;
+        padding:20px;
+    }
+
+    .lokinet-container
+    {
+        width:25%;
+        padding:20px;
+    }
+
+    .snapps-container
+    {
+        width:25%;    
+        padding:20px;
+    }
+
+    .messenger-img
+    {
+        height:230px;
+    }
+
+    .sn-img
+    {
+        height:230px;
+    }
+
+    .lokinet-img
+    {
+        height:230px;
+    }
+
+    .snapps-img
+    {
+        height:230px;  
+    }
 }
