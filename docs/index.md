@@ -45,7 +45,7 @@ md<link rel="stylesheet" type="text/css" href="https://www.loki.network/asciinem
 		</div>
 	</div>
 	<div class="col2">
-		<img width="1000px" src ="assets/AssetsChina/Lokistatic.png">
+		<img width="1000px" src ="assets/AssetsChina/Lokistatic.PNG">
   	</div>
 </div>
 <div class="video-block">
@@ -173,6 +173,6 @@ Loki是一个允许用户在互联网上进行私密交易和通信的匿名隐�
 		</p>
 	</div>
 	<div class="col2">
-		<img src="assets/AssetsChina/lokinet2.png"><br>
+		<img src="assets/AssetsChina/lokinet2.PNG"><br>
 	</div>
 </div>

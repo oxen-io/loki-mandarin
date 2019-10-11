@@ -1,0 +1,642 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="https://docs.loki.network/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="Loki_favicon32x32.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Loki Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.22915126.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+      <link rel="stylesheet" href="CSS/style.css">
+    
+      <link rel="stylesheet" href="CSS/font.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="" data-md-color-accent="green">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#loki" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://docs.loki.network" title="Loki Docs" class="md-header-nav__button md-logo">
+          
+            <img src="logo.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Loki Docs
+              </span>
+              <span class="md-header-nav__topic">
+                Loki.network
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/loki-project/loki-docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      lokidocs
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+<nav class="md-tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="." title="Loki.network" class="md-tabs__link md-tabs__link--active">
+        Loki.network
+      </a>
+    
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://docs.loki.network" title="Loki Docs" class="md-nav__button md-logo">
+      
+        <img src="logo.svg" width="48" height="48">
+      
+    </a>
+    Loki Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/loki-project/loki-docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      lokidocs
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Loki.network
+      </label>
+    
+    <a href="." title="Loki.network" class="md-nav__link md-nav__link--active">
+      Loki.network
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#loki" title="什么是loki？" class="md-nav__link">
+    什么是loki？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="信使" class="md-nav__link">
+    信使
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="服务节点" class="md-nav__link">
+    服务节点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="洛基网络" class="md-nav__link">
+    洛基网络
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="服务节点应用程序" class="md-nav__link">
+    服务节点应用程序
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#loki" title="什么是loki？" class="md-nav__link">
+    什么是loki？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="信使" class="md-nav__link">
+    信使
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="服务节点" class="md-nav__link">
+    服务节点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="洛基网络" class="md-nav__link">
+    洛基网络
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="服务节点应用程序" class="md-nav__link">
+    服务节点应用程序
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/loki-project/loki-docs/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Loki.network</h1>
+                
+                <p>md<link rel="stylesheet" type="text/css" href="https://www.loki.network/asciinema-player.css" />
+<h2>介绍</h2>
+<div class="row">
+    <div class="col1">
+        <div class="about">
+            <p>
+                隐私拥有决定你何时披露个人信息的代理性质。如今，当个人数据的收集和存储正以史无前例的水平进行时，质量尤其有价值。
+                <br><br>
+                Loki利用区块链去中心化的技术来创建与互联网交互的新方式，保证了交易和通信的隐私和匿名性。
+            </p>
+        </div>
+        <h2>下载链接</h2>
+        <div class="download-container">
+            <div class ="inner-download-left">
+                <h3>信使</h3>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-messenger/releases" class="button button-outline">桌面系统</a>
+                </div>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-messenger-android/releases" class="button button-outline">安卓系统</a>
+                </div>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-messenger-ios/releases" class="button button-outline">苹果系统</a>
+                </div>
+                <h3>钱包</h3>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-electron-gui-wallet/releases" class="button button-outline">图形界面</a>
+                </div>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki/releases" class="button button-outline">命令行钱包</a>
+                </div>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-android-wallet/releases" class="button button-outline">安卓系统</a>
+                </div>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-ios-wallet/releases" class="button button-outline">苹果系统</a>
+                </div>
+            </div>
+            <div class="inner-download-right">
+                <h3>洛基网络</h3>
+                <div class="button-container">
+                    <a href="https://github.com/loki-project/loki-network/releases" class="button button-outline">桌面系统</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col2">
+        <img width="1000px" src ="assets/AssetsChina/Lokistatic.png">
+    </div>
+</div>
+<div class="video-block">
+    <video width="1000" poster="assets/AssetsChina/thumbnail.PNG" controls>
+    <source src="assets/AssetsChina/ChinaThisIsLokiHardSubs.webm"  type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<br></p>
+<h2 id="loki">什么是loki？<a class="headerlink" href="#loki" title="Permanent link">&para;</a></h2>
+<p>Loki是一个允许用户在互联网上进行私密交易和通信的匿名隐私网络，它提供一套工具来最大程度的保持在线网页浏览，交易和通信时匿名性。<br><br></p>
+<p>借助区块链技术的去中心化，Loki创建了与互联网交互的新的私有和安全的方法，并构建了以隐私为中心的应用程序，例如消息服务，论坛，在线市场和社交媒体平台。</p>
+<div class="services-container">
+    <div class="messenger-container">
+        <h3>信使</h3>
+        <div class="messenger-img">
+            <img src="assets/images/LokiArtboard.png">
+        </div>
+        <p>
+            Loki Messenger是适用于所有平台的去中心化私人消息传递应用程序。 匿名和无懈可击的消息传递应用程序让您高枕无忧。
+        </p>
+    </div>
+    <div class="sn-container">
+        <h3>服务节点</h3>
+        <div class="sn-img">
+            <img src="assets/images/LokiBox.png">
+        </div>
+        <p>
+            服务节点是Loki网络的核心，并通过其贡献获得可观的经济回报。 使用服务节点，您可以实现托管服务，运行SNApp和浏览Lokinet。再让互联网变得更加私密的过程中获得盈利。 
+            <br><br>
+            <a href="https://github.com/loki-project/loki-docs/blob/master/docs/ServiceNodes/SNFullGuide.md"> 查看服务节点指南以托管您自己的服务节点。</a>
+        </p>
+    </div>  
+    <div class="lokinet-container">
+        <h3>洛基网络</h3>
+        <div class="lokinet-img">
+            <img src="assets/images/loki_sample.png">
+        </div>
+        <p>
+            独特的Lokinet由区块链强制实施和激励的洋葱路由网络，您可以在其中匿名浏览互联网，访问和托管私人网站，而无需暴露您的身份或IP地址。 
+            <br><br>
+            <a href="https://github.com/loki-project/loki-docs/blob/master/docs/Lokinet/LokinetOverview.md">查看Lokinet概述以了解更多信息。</a>
+        </p>
+    </div>
+    <div class="snapps-container">
+        <h3>服务节点应用程序</h3>
+        <div class="snapps-img">
+            <img src="assets/images/LokiInterface.png">
+        </div>
+        <p>
+            SNApps（服务节点应用程序）允许在Lokinet内托管隐藏的私有Web应用程序。 借助SNApp，您可以建立反审查的社交媒体平台，新闻站点，市场和其他社区，这种可能性是无止境的。
+            <br><br>
+            <a href="https://github.com/loki-project/loki-docs/blob/master/docs/Lokinet/Guides/PublicTestingGuide.md">查看公共测试指南以托管自己的SNApp。</a>
+        </p>
+    </div>      
+</div>
+
+<p><br>
+<br></p>
+<h2 id="_1">信使<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p><div class="row">
+    <div class="col1">
+        <p>
+            Loki Messenger不会像其他Messenger那样连接到中央服务器，而是连接到协作服务节点组（“集群”），它们在存储消息的同时实现了高度冗余，即使在离线时也避免了消息的丢失。
+            <br><br>
+            Loki Messenger提供了一种新的在线通信方式，可确保用户的最佳性能和安全性，同时为连接区块链技术和Loki Messenger传送解决方案提供了可靠的使用案例。
+            <br><br>
+        </p>
+        <img max-width="30px" src="assets/AssetsChina/desktop.png">
+    </div>
+    <div class="col2">
+        <img src="assets/AssetsChina/messenger.gif">
+    </div>
+</div>
+<br>
+<br></p>
+<h2 id="_2">服务节点<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><div class="row">
+    <div class="col1">
+        <p>
+            Loki的大部分网络功能和延展性是由一组称为服务节点的激励节点来实现的。 为了操作服务节点，运营商会定时锁定大量的Loki，并为网络提供最小级别的带宽和存储。 作为其服务的回报，Loki服务节点运营商将从每个区块中获得一部分区块奖励。
+            <br><br>
+            这样的网络可提供基于市场的Sybil攻击抵御能力，从而解决了现有混合网和以隐私为中心的服务所带来的一系列问题。 这种抵制基于供求互动关系，有助于防止单个参与者在Loki中拥有过大的股份，从而对Loki提供的第二层隐私服务产生巨大负面影响。 DASH首先提出了可以从加密经济学推论Sybil抗攻击网络的理论。 当进攻者购买Loki，现存流通供应减少，反而施加需求侧压力，推动Loki的价格上涨。 随着这种情况的继续，额外Loki的购买变得越来越昂贵，这使攻击变得非常昂贵。
+            <br><br>
+            为了实现这种经济保护，loki鼓励积极抑制现存的流通供应。特别是曲线发行和附加要求必须设计为确保足够的流通供应被锁定，并为节点运营商提供合理的回报，以确保抵御Sybil的攻击。
+        </p>
+    </div>
+    <div class="col2">
+        <img src="assets/AssetsChina/launcher.png"><br>
+    </div>
+</div>
+<br>
+<br></p>
+<h2 id="_3">洛基网络<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p><div class="row">
+    <div class="col1">
+        <p>
+            通过Lokinet传输的所有数据都是经过加密的，并通过隐藏真实来源的多个节点进行跳转。
+您的真实IP地址不会泄露给Loki网络地址网络。在Loki网络中使用Loki硬币提供了可选择的升级，但Loki网络的的核心功能是免费的。
+            <br><br>
+            Lokinet中的路由不依赖于任何单一服务器，从而使其具有抵御攻击的能力，并且互联网服务提供商无法阻止您在Lokinet上访问您的网站。与VPN不同，您不需要依赖单一服务器，因为Lokinet使用洋葱路由网络。
+            <br><br>
+            支持Windows、Linux和Mac平台上的任何主流浏览器。
+        </p>
+    </div>
+    <div class="col2">
+        <img src="assets/AssetsChina/lokinet.png"><br>
+    </div>
+</div>
+<br>
+<br></p>
+<h2 id="_4">服务节点应用程序<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p><div class="row">
+    <div class="col1">
+        <p>
+            SNApps的功能类似于Tor中发展的所谓隐藏服务。 它们为用户提供了一种在混合网络环境中进行完全交互的方式，从而提供了比访问外部主管内容更高的匿名度。 SNApps允许用户在自己的机器或服务器上建立和托管市场，论坛，举报网站，社交媒体和大多数其他互联网应用程序，同时保持全服务器和用户端的匿名。 这极大地扩展了网络范围，并允许用户在Loki网络中建立重要的社区。
+            <br><br>
+            SNApp运营商使用传统的服务器-客户端模型，主要区别在于服务节点将成为通过洛基网络与用户连接的中介。 当SNApp希望在网络上注册时，它必须使用其描述符更新DHT。 此描述符包含各种导入器，这些导入器是用户可以联系以形成SNApp路径的特定服务节点。 设置这些路径后，用户可以连接到SNApp，而无需任何一方知道对方在网络中的位置。
+        </p>
+    </div>
+    <div class="col2">
+        <img src="assets/AssetsChina/lokinet2.png"><br>
+    </div>
+</div></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/loki-project" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/loki_project" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://t.me/LokiCommunity" class="md-footer-social__link fa fa-telegram"></a>
+    
+      <a href="https://www.reddit.com/r/LokiProject" class="md-footer-social__link fa fa-reddit"></a>
+    
+      <a href="https://www.youtube.com/lokinetwork" class="md-footer-social__link fa fa-youtube"></a>
+    
+      <a href="https://www.facebook.com/LokiNetwork/" class="md-footer-social__link fa fa-facebook"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+        <script src="JAVASCRIPT/links.js"></script>
+      
+        <script src="JAVASCRIPT/style.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>
