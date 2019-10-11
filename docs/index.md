@@ -1,4 +1,4 @@
-md<link rel="stylesheet" type="text/css" href="https://www.loki.network/asciinema-player.css" />
+<link rel="stylesheet" type="text/css" href="https://www.loki.network/asciinema-player.css" />
 <h2>介绍</h2>
 <div class="row">
 	<div class="col1">

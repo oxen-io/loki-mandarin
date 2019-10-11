@@ -1,5 +1,5 @@
 # Loki Docs
-To view documentation please visit https://lokidocs.com
+To view documentation please visit https://loki-project.github.io/loki-mandarin/
 
 Any changes made to this repository will be auto-propagated to the Loki-docs website.
 
